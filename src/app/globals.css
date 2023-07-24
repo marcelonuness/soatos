@@ -13,10 +13,11 @@ body {
 
 /* card section home */
 .card {
-  width: 130px;
+  width: 170px;
   height: 90px;
-  border-radius: 15px;
-  background: #e0e0e0;
-  box-shadow: 15px 15px 30px #bebebe,
-             -15px -15px 30px #ffffff;
+  border-radius: 6px;
+  border: 1px solid #dadada;
+  background: #ffff;
+  box-shadow: 10px 10px 20px #dbdbdb,
+             -10px -10px 20px #ffffff;
 }

@@ -63,13 +63,13 @@ export default function NavBar() {
                     <svg className="fill-current h-4 w-4" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20"><path d="M9.293 12.95l.707.707L15.657 8l-1.414-1.414L10 10.828 5.757 6.586 4.343 8z"/> </svg>
                     </a>
                     <ul className="dropdown-menu absolute hidden text-white pt-1 text-sm">
-                    <li className=""><a className=" px-16  bg-black hover:font-bold hover:bg-gray-800 py-2 block whitespace-no-wrap" href="#">Clp&#39;s</a></li>
-                    <li className=""><a className=" px-16 bg-black hover:font-bold hover:bg-gray-800 py-2 block whitespace-no-wrap" href="#">Fontes</a></li>
-                    <li className=""><a className="px-16 bg-black hover:font-bold hover:bg-gray-800 py-2 block whitespace-no-wrap" href="#">IHMs</a></li>
-                    <li className=""><a className=" px-16 bg-black hover:font-bold hover:bg-gray-800 py-2 block whitespace-no-wrap" href="#">Brio&#39;s</a></li>
-                    <li className=""><a className=" px-16 bg-black hover:font-bold hover:bg-gray-800 py-2 block whitespace-no-wrap" href="#">Cabos</a></li>
-                    <li className=""><a className=" px-16 bg-black hover:font-bold hover:bg-gray-800 py-2 block whitespace-no-wrap" href="#">Semi&#45;novos</a></li>
-                    <li className=""><a className=" px-16  bg-black hover:font-bold hover:bg-gray-800 py-2 block whitespace-no-wrap" href="#">Produtos antigos</a></li>
+                    <li className="w-full"><a className=" px-16  bg-black hover:font-bold hover:bg-gray-800 py-2 block whitespace-no-wrap" href="#">Clp&#39;s</a></li>
+                    <li className="w-full"><a className=" px-16 bg-black hover:font-bold hover:bg-gray-800 py-2 block whitespace-no-wrap" href="#">Fontes</a></li>
+                    <li className="w-full"><a className="px-16 bg-black hover:font-bold hover:bg-gray-800 py-2 block whitespace-no-wrap" href="#">IHMs</a></li>
+                    <li className="w-full"><a className=" px-16 bg-black hover:font-bold hover:bg-gray-800 py-2 block whitespace-no-wrap" href="#">Brio&#39;s</a></li>
+                    <li className="w-full"><a className=" px-16 bg-black hover:font-bold hover:bg-gray-800 py-2 block whitespace-no-wrap" href="#">Cabos</a></li>
+                    <li className="w-full"><a className=" px-16 bg-black hover:font-bold hover:bg-gray-800 py-2 block whitespace-no-wrap" href="#">Semi&#45;novos</a></li>
+                    <li className="w-full"><a className=" px-16  bg-black hover:font-bold hover:bg-gray-800 py-2 block whitespace-no-wrap" href="#">Produtos antigos</a></li>
                     </ul>
                 </div>
               </div>
