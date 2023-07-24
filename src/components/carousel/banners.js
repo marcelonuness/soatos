@@ -1,5 +1,5 @@
 "use client"
-import { useState, useEffect } from "react"
+import { useState } from "react"
 import {BsChevronCompactLeft, BsChevronCompactRight} from "react-icons/bs"
 import { RxDotFilled } from "react-icons/rx"
 
@@ -31,19 +31,9 @@ export default function Banner() {
         setCurrentIndex(slideIndex)
     }
 
-    const [currentSlide, setCurrentSlide] = useState(0);
-
-    const nextSlideAutomatic = () => {
-        setCurrentSlide((prevSlide) => (prevSlide + 1) % slides.length);
-    };
-
-    useEffect(() => {
-        const interval = setInterval(nextSlideAutomatic, 3000); // Troca de slide a cada 3 segundos (3000 milissegundos)
-        return () => clearInterval(interval);
-    }, []);
     
     return(
-        <div className="max-w-[1440px] h-[256px] w-full relative group">
+        <div className="max-w-[1440px] h-[400px] w-full relative group">
                          
                 <div       
                     className="w-full h-full bg-center bg-cover duration-500" 

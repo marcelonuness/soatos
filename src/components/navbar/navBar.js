@@ -1,6 +1,7 @@
 'use client';
 import Link from "next/link";
 import Image from "next/image";
+import Button from "../button/button";
 import { useState, useEffect } from "react";
 
 
@@ -75,10 +76,8 @@ export default function NavBar() {
               </div>
             </div>
 
-            {/* Botão de Login e cadastro */}
-            <div>
-              <button className="transition ease-in-out delay-15 hover:-translate-y-1 hover:scale-110 duration-300 bg-white w-[200px] h-[50px] text-black">Entre em Contato</button>              
-            </div>            
+            {/* Botão de Contato */}
+            <Button title="Entre em Contato" colorText="text-black" colorBg="bg-white"></Button>
         </div>
 
           {/* Menu Responsivo */}
