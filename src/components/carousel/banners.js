@@ -7,8 +7,8 @@ export default function Banner() {
     
     const slides = [
   
-        {id: 1, url:"/banner1.png"},
-        {id: 2, url:"/banner2.png"},
+        {id: 1, url:"/blog-banner-2.png"},
+        {id: 2, url:"/blog-banner.png"},
         {id: 3, url:"/banner3.png"},
     
     ]
