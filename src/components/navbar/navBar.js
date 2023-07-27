@@ -17,7 +17,7 @@ export default function NavBar() {
     return () => window.removeEventListener('scroll', handleScroll);
   }, []);
   return (
-    <nav className={`py-3 fixed top-0 left-0 w-full px-10 z-10 ${
+    <nav className={`text-sm py-3 fixed top-0 left-0 w-full px-10 z-10 ${
         showNavbar ? "bg-black text-white" : "bg-white text-black"}
     transition duration-300 ease-in-out`}>
       <div className="max-w-7l mx-auto px-4 sm:px-6 lg:px-8">
@@ -39,38 +39,38 @@ export default function NavBar() {
               <div className={`ml-10 flex items-baseline space-x-4 ${
               showNavbar ? 'block' : 'hidden'
             }`}>
-                <a
-                  href="#section1"
+                <Link
+                  href="/"
                   className="hover:font-bold px-5 py-2 rounded-md text-md"
                 >
                   Página Inicial
-                </a>
-                <a
-                  href="#sobre"
+                </Link>
+                <Link
+                  href="/sobre"
                   className="hover:font-bold px-5 py-2 rounded-md text-md"
                 >
                   Sobre Nós
-                </a>
-                <a
-                  href="#precos"
+                </Link>
+                <Link
+                  href="/manutencao"
                   className="hover:font-bold px-5 py-2 rounded-md text-md"
                 >
                   Manutenção
-                </a>
+                </Link>
                 {/* Aba de produtos com DROPDOWN */}
                 <div className="dropdown inline-block relative">
-                    <a className="inline-flex items-center hover:font-bold">
+                    <Link className="inline-flex items-center hover:font-bold" href="/produtos">
                     <span className="">Produtos</span>
                     <svg className="fill-current h-4 w-4" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20"><path d="M9.293 12.95l.707.707L15.657 8l-1.414-1.414L10 10.828 5.757 6.586 4.343 8z"/> </svg>
-                    </a>
+                    </Link>
                     <ul className="dropdown-menu absolute hidden text-white pt-1 text-sm">
-                    <li className="w-full"><a className=" px-16  bg-black hover:font-bold hover:bg-gray-800 py-2 block whitespace-no-wrap" href="#">Clp&#39;s</a></li>
-                    <li className="w-full"><a className=" px-16 bg-black hover:font-bold hover:bg-gray-800 py-2 block whitespace-no-wrap" href="#">Fontes</a></li>
-                    <li className="w-full"><a className="px-16 bg-black hover:font-bold hover:bg-gray-800 py-2 block whitespace-no-wrap" href="#">IHMs</a></li>
-                    <li className="w-full"><a className=" px-16 bg-black hover:font-bold hover:bg-gray-800 py-2 block whitespace-no-wrap" href="#">Brio&#39;s</a></li>
-                    <li className="w-full"><a className=" px-16 bg-black hover:font-bold hover:bg-gray-800 py-2 block whitespace-no-wrap" href="#">Cabos</a></li>
-                    <li className="w-full"><a className=" px-16 bg-black hover:font-bold hover:bg-gray-800 py-2 block whitespace-no-wrap" href="#">Semi&#45;novos</a></li>
-                    <li className="w-full"><a className=" px-16  bg-black hover:font-bold hover:bg-gray-800 py-2 block whitespace-no-wrap" href="#">Produtos antigos</a></li>
+                    <li className="w-full"><Link className=" px-16  bg-black hover:font-bold hover:bg-gray-800 py-2 block whitespace-no-wrap" href="#">Clp&#39;s</Link></li>
+                    <li className="w-full"><Link className=" px-16 bg-black hover:font-bold hover:bg-gray-800 py-2 block whitespace-no-wrap" href="#">Fontes</Link></li>
+                    <li className="w-full"><Link className="px-16 bg-black hover:font-bold hover:bg-gray-800 py-2 block whitespace-no-wrap" href="#">IHMs</Link></li>
+                    <li className="w-full"><Link className=" px-16 bg-black hover:font-bold hover:bg-gray-800 py-2 block whitespace-no-wrap" href="#">Brio&#39;s</Link></li>
+                    <li className="w-full"><Link className=" px-16 bg-black hover:font-bold hover:bg-gray-800 py-2 block whitespace-no-wrap" href="#">Cabos</Link></li>
+                    <li className="w-full"><Link className=" px-16 bg-black hover:font-bold hover:bg-gray-800 py-2 block whitespace-no-wrap" href="#">Semi&#45;novos</Link></li>
+                    <li className="w-full"><Link className=" px-16  bg-black hover:font-bold hover:bg-gray-800 py-2 block whitespace-no-wrap" href="#">Produtos antigos</Link></li>
                     </ul>
                 </div>
               </div>
