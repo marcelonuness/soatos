@@ -2,15 +2,18 @@
 import { useState } from "react"
 
 export default function Contato() {
-    const [nome, setNome] = useState('');
-    const [email, setEmail] = useState('');
-    const [emailValido, setEmailValido] = useState(true);
-    const [telefone, setTelefone] = useState('');
+  const [primeiroNome, setPrimeiroNome] = useState('');
+  const [segundoNome, setSegundoNome] = useState('');
+  const [dataNascimento, setDataNascimento] = useState('');
+  const [descricao, setDescricao] = useState('');
+  const [email, setEmail] = useState('');
+  const [emailValido, setEmailValido] = useState(true);
+  const [telefone, setTelefone] = useState('');
 
     const handleSubmit = (event) => {
         event.preventDefault();
         // Lógica para manipular os dados do formulário
-        console.log('Dados enviados:', nome, email, telefone)
+        console.log('Dados enviados:', primeiroNome, segundoNome, email, telefone, descricao, dataNascimento)
      };
     
     //validação do email
@@ -57,28 +60,29 @@ export default function Contato() {
         setTelefone(telefoneFormatado.slice(0, 15));
     };
     //validação do número de telefone termina aqui!
-    return (
-        <section id="section3" className="pt-40 pb-24 flex justify-center">
-            <form className="form md:w-1/2" onSubmit={handleSubmit}>
-                <p className="heading text-blue-500">Teste Grátis</p>
-                <input className="input" type="text"
-                    id="nome"
-                    placeholder="Seu Nome"
-                    value={nome}
-                    onChange={(event) => setNome(event.target.value)}></input>
+     return (
+        <div>
+          <form className="px-7 my-10 grid justify-center items-center">
+            <div className="grid gap-6" id="form">
+              <h1 className="text-3xl ">Conecte-se</h1>
+            <div className="w-full flex gap-3">
+              <input className="capitalize shadow-2xl p-3 ex w-full outline-none focus:border-solid focus:border-[1px] border-[#cbb26a] placeholder:text-black" type="text" placeholder="Nome" id="nome" name="nome" required="" onChange={(event) => setPrimeiroNome(event.target.value)}></input>
+              <input className="p-3 capitalize shadow-2xl  glass w-full placeholder:text-black outline-none focus:border-solid focus:border-[1px] border-[#cbb26a]" type="text" placeholder="Sobrenome" id="sobrenome" name="Last-Name" onChange={(event) => setSegundoNome(event.target.value)}></input>
+           </div>
+              <div className="grid gap-6 w-full">
                 <input 
-                    className="input" 
-                    type="email"
+                    className="p-3 shadow-2xl  glass w-full placeholder:text-black outline-none focus:border-solid border-[#cbb26a] focus:border-[1px]" type="email"
                     id="email"
                     placeholder="Seu Melhor E-mail"
                     value={email}
                     required
                     pattern="^[^\s@]+@[^\s@]+\.[^\s@]+$"
                     onChange={handleEmailChange}></input>
-                {!emailValido && <p className="text-red-700 text-sm">Por favor, insira um endereço de e-mail válido.</p>}    
-                <input 
-                    className="input" 
-                    id="telefone"
+                {!emailValido && <p className="text-red-700 text-sm p-3">Por favor, insira um endereço de e-mail válido.</p>}
+                <input className="p-3 shadow-2xl glass w-full text-black outline-none focus:border-solid focus:border-[1px]border-[#cbb26a]" type="date" required="" value={dataNascimento} onChange={(event) => setDataNascimento(event.target.value)}></input>
+              </div>
+              <div className="flex gap-3">
+                <input className="p-3 glass shadow-2xl  w-full placeholder:text-black outline-none focus:border-solid focus:border-[1px] border-[#cbb26a]" id="telefone"
                     placeholder="Número de Telefone"
                     type="tel"
                     pattern="\(\d{2}\) \d{4,5}-\d{4}"
@@ -86,8 +90,18 @@ export default function Contato() {
                     required
                     value={telefone}
                     onChange={handleTelefoneChange}></input>
-                <button className="btn">Abrir Dashboard</button>
-            </form>
-        </section>
+              </div>
+              <div className="flex gap-3">
+              <textarea value={descricao} onChange={(event) => setDescricao(event.target.value)} className="p-3 glass shadow-2xl  w-full placeholder:text-black outline-none focus:border-solid focus:border-[1px] border-[#cbb26a]" placeholder="Descrição" name="descricao" rows="5" cols="50">
+                
+              </textarea>
+              </div>
+              
+              <button className="outline-none glass shadow-2xl  w-full p-3  bg-[#ffffff42] hover:border-[#cbb26a] hover:border-solid hover:border-[1px] font-bold" type="submit" onChange={handleSubmit}>Enviar</button>
+            </div>
+          </form>
+        </div>
+    
     );
 }
+
