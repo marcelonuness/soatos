@@ -4,7 +4,6 @@ import { useState } from "react"
 export default function Contato() {
   const [primeiroNome, setPrimeiroNome] = useState('');
   const [segundoNome, setSegundoNome] = useState('');
-  const [dataNascimento, setDataNascimento] = useState('');
   const [descricao, setDescricao] = useState('');
   const [email, setEmail] = useState('');
   const [emailValido, setEmailValido] = useState(true);
@@ -61,7 +60,7 @@ export default function Contato() {
     };
     //validação do número de telefone termina aqui!
      return (
-        <div>
+        <div className="">
           <form className="px-7 my-10 grid justify-center items-center">
             <div className="grid gap-6" id="form">
               <h1 className="text-3xl ">Conecte-se</h1>
@@ -79,7 +78,6 @@ export default function Contato() {
                     pattern="^[^\s@]+@[^\s@]+\.[^\s@]+$"
                     onChange={handleEmailChange}></input>
                 {!emailValido && <p className="text-red-700 text-sm p-3">Por favor, insira um endereço de e-mail válido.</p>}
-                <input className="p-3 shadow-2xl glass w-full text-black outline-none focus:border-solid focus:border-[1px]border-[#cbb26a]" type="date" required="" value={dataNascimento} onChange={(event) => setDataNascimento(event.target.value)}></input>
               </div>
               <div className="flex gap-3">
                 <input className="p-3 glass shadow-2xl  w-full placeholder:text-black outline-none focus:border-solid focus:border-[1px] border-[#cbb26a]" id="telefone"
