@@ -13,7 +13,7 @@ export default function SectionForm() {
             <div className="h-[400px] bg-cover bg-center bg-fixed" style={{backgroundImage: `url('robo.jpg')`}}>
 
             </div>
-            <div className="bg-white w-2/6 h-5/6 border-blue-700 absolute inset-y-0 top-1/4 start-1/2">
+            <div className="bg-white w-2/6 h-full border-blue-700 absolute inset-y-0 top-1/4 start-1/2">
                 <Contato></Contato>
             </div>
         </div>

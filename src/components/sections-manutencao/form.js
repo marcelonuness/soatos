@@ -60,8 +60,8 @@ export default function Contato() {
     };
     //validação do número de telefone termina aqui!
      return (
-        <div className="">
-          <form className="px-7 my-10 grid justify-center items-center">
+        <div className="my-16 mx-10">
+          <form className="grid justify-center items-center">
             <div className="grid gap-6" id="form">
               <h1 className="text-3xl ">Conecte-se</h1>
             <div className="w-full flex gap-3">
@@ -95,7 +95,7 @@ export default function Contato() {
               </textarea>
               </div>
               
-              <button className="outline-none glass shadow-2xl  w-full p-3  bg-[#ffffff42] hover:border-[#cbb26a] hover:border-solid hover:border-[1px] font-bold" type="submit" onChange={handleSubmit}>Enviar</button>
+              <button className="outline-none glass shadow-2xl w-full p-3 bg-[#ffffff42] hover:border-[#cbb26a] hover:border-solid hover:border-[1px] font-bold" type="submit" onChange={handleSubmit}>Enviar</button>
             </div>
           </form>
         </div>
