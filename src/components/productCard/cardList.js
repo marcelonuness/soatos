@@ -1,9 +1,15 @@
 import ProductCard from "./productCard";
 
-export default function CardList( {cards} ) {
+export default function CardList( { cards, selectedCategory } ) {
+
+  const filteredCard =
+  selectedCategory === "Todos"
+    ? cards
+    : cards.filter((card) => card.category === selectedCategory);
+
     return (
-      <div className="w-full flex flex-wrap justify-between ">
-        {cards.map((card, index) => (
+      <div className="w-full flex flex-wrap">
+        {filteredCard.map((card, index) => (
             <ProductCard
                 key={index}
                 title={card.title}
