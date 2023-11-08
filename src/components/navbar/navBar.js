@@ -82,7 +82,7 @@ export default function NavBar() {
 
           {/* Menu Responsivo */}
           <div className="-mr-2 flex md:hidden">
-            <button type="button" className="inline-flex items-center justify-center p-2 rounded-md hover:text-blue-700 hover:bg-gray-100 focus:outline-none focus:bg-gray-100 focus:text-blue-700 transition duration-300 ease-in-out" aria-label="Menu" aria-expanded="false" onClick={()=> {
+            <button type="button" className="inline-flex items-center justify-center p-2 rounded-md hover:text-black hover:bg-gray-100 focus:outline-none focus:bg-gray-100 focus:text-black transition duration-300 ease-in-out mx-2" aria-label="Menu" aria-expanded="false" onClick={()=> {
               const menu = document.getElementById("menu")
               menu.classList.toggle("hidden")
             }}>
@@ -100,23 +100,19 @@ export default function NavBar() {
           <Link
             href="#section1"
             className="hover:bg-gray-800 hover:font-bold block px-3 py-2 rounded-md text-base "
-          >Início</Link>
+          >Página Inicial</Link>
           <Link
             href="#sobre"
             className="hover:bg-gray-800 hover:font-bold block px-3 py-2 rounded-md text-base "
-          >Sobre</Link>
+          >Sobre Nós</Link>
           <Link
             href="#preco"
             className="hover:bg-gray-800 hover:font-bold block px-3 py-2 rounded-md text-base "
-          >Preços</Link>
+          >Manutenção</Link>
           <Link
             href="#section3"
             className="hover:bg-gray-800 hover:font-bold block px-3 py-2 rounded-md text-base "
-          >Teste Grátis</Link>
-          <Link
-            href="/login"
-            className="hover:bg-gray-800 hover:font-bold block px-3 py-2 rounded-md text-base "
-          >Login/Cadastre-se</Link>
+          >Produtos</Link>
         </div>
       </div>
     </nav>
