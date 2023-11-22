@@ -6,20 +6,20 @@ import { useState } from "react";
 
 const cardsData = [
     {
-        title: "Produto 1",
-        description: "Ihm altamente eficiente para o desenvolvimento da sua indústria.",
-        imageUrl: "/IMG_4847.png",
+        title: "4004.01 - CONTROLADOR PROGRAMAVEL MPC4004 NVRAM 8 E/S (NPN) 24VCC",
+        description: "",
+        imageUrl: "/photo1.png",
         category: "Clps"       
     },
     {
         title: "Produto 2",
-        description: "Ihm altamente eficiente para o desenvolvimento da sua indústria.",
+        description: "",
         imageUrl: "/IMG_4848.png",
         category: "Ihms"            
     },
     {
         title: "Produto 3",
-        description: "Ihm altamente eficiente para o desenvolvimento da sua indústria.",
+        description: "",
         imageUrl: "/IMG_4849.png",
         category: "Fontes"       
     },
