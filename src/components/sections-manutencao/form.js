@@ -59,9 +59,11 @@ export default function Contato() {
         setTelefone(telefoneFormatado.slice(0, 15));
     };
     //validação do número de telefone termina aqui!
+
+    
      return (
         <div className="my-16 mx-10">
-          <form className="grid justify-center items-center">
+          <form action="https://formsubmit.co/marcos@soatos.com.br" method="POST" className="grid justify-center items-center">
             <div className="grid gap-6" id="form">
               <h1 className="text-3xl ">Conecte-se</h1>
             <div className="w-full flex gap-3">
@@ -70,8 +72,10 @@ export default function Contato() {
            </div>
               <div className="grid gap-6 w-full">
                 <input 
-                    className="p-3 shadow-2xl  glass w-full placeholder:text-black outline-none focus:border-solid border-[#cbb26a] focus:border-[1px]" type="email"
+                    className="p-3 shadow-2xl  glass w-full placeholder:text-black outline-none focus:border-solid border-[#cbb26a] focus:border-[1px]" 
+                    type="email"
                     id="email"
+                    name="email"
                     placeholder="Seu Melhor E-mail"
                     value={email}
                     required
@@ -80,9 +84,11 @@ export default function Contato() {
                 {!emailValido && <p className="text-red-700 text-sm p-3">Por favor, insira um endereço de e-mail válido.</p>}
               </div>
               <div className="flex gap-3">
-                <input className="p-3 glass shadow-2xl  w-full placeholder:text-black outline-none focus:border-solid focus:border-[1px] border-[#cbb26a]" id="telefone"
+                <input className="p-3 glass shadow-2xl  w-full placeholder:text-black outline-none focus:border-solid focus:border-[1px] border-[#cbb26a]" 
+                    id="telefone"
                     placeholder="Número de Telefone"
                     type="tel"
+                    name="telefone"
                     pattern="\(\d{2}\) \d{4,5}-\d{4}"
                     maxLength="15"
                     required
@@ -90,11 +96,18 @@ export default function Contato() {
                     onChange={handleTelefoneChange}></input>
               </div>
               <div className="flex gap-3">
-              <textarea value={descricao} onChange={(event) => setDescricao(event.target.value)} className="p-3 glass shadow-2xl  w-full placeholder:text-black outline-none focus:border-solid focus:border-[1px] border-[#cbb26a]" placeholder="Descrição" name="descricao" rows="5" cols="50">
-                
+              <textarea 
+                value={descricao} 
+                onChange={(event) => setDescricao(event.target.value)} 
+                className="p-3 glass shadow-2xl  w-full placeholder:text-black outline-none focus:border-solid focus:border-[1px] border-[#cbb26a]" 
+                placeholder="Descrição" 
+                name="descricao"
+                id="descricao"
+                rows="5" 
+                cols="50">                
               </textarea>
               </div>
-              
+              <input type="hidden" name="_next" value="http://localhost:3000/sucesso" />
               <button className="outline-none glass shadow-2xl w-full p-3 bg-[#ffffff42] hover:border-[#cbb26a] hover:border-solid hover:border-[1px] font-bold" type="submit" onChange={handleSubmit}>Enviar</button>
             </div>
           </form>

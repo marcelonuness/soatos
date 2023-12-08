@@ -25,7 +25,7 @@ export const cardsData = [
         category: "Clps"
     },
     {
-        title: "4004.71R MOD.RS232/RS485 ISOLADA c/ PROT.",
+        title: "4004.71R MOD.RS232/RS485 ISOLADA c/ PROT",
         description: "",
         imageUrl: "/photo5.png",
         category: "Clps"

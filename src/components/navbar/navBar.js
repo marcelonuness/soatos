@@ -57,22 +57,13 @@ export default function NavBar() {
                 >
                   Manutenção
                 </Link>
-                {/* Aba de produtos com DROPDOWN */}
-                <div className="dropdown inline-block relative">
-                    <Link className="inline-flex items-center hover:font-bold" href="/produtos">
-                    <span className="">Produtos</span>
-                    <svg className="fill-current h-4 w-4" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20"><path d="M9.293 12.95l.707.707L15.657 8l-1.414-1.414L10 10.828 5.757 6.586 4.343 8z"/> </svg>
-                    </Link>
-                    <ul className="dropdown-menu absolute hidden text-white pt-1 text-sm">
-                    <li className="w-full"><Link className=" px-16  bg-black hover:font-bold hover:bg-gray-800 py-2 block whitespace-no-wrap" href="#">Clp&#39;s</Link></li>
-                    <li className="w-full"><Link className=" px-16 bg-black hover:font-bold hover:bg-gray-800 py-2 block whitespace-no-wrap" href="#">Fontes</Link></li>
-                    <li className="w-full"><Link className="px-16 bg-black hover:font-bold hover:bg-gray-800 py-2 block whitespace-no-wrap" href="#">IHMs</Link></li>
-                    <li className="w-full"><Link className=" px-16 bg-black hover:font-bold hover:bg-gray-800 py-2 block whitespace-no-wrap" href="#">Brio&#39;s</Link></li>
-                    <li className="w-full"><Link className=" px-16 bg-black hover:font-bold hover:bg-gray-800 py-2 block whitespace-no-wrap" href="#">Cabos</Link></li>
-                    <li className="w-full"><Link className=" px-16 bg-black hover:font-bold hover:bg-gray-800 py-2 block whitespace-no-wrap" href="#">Semi&#45;novos</Link></li>
-                    <li className="w-full"><Link className=" px-16  bg-black hover:font-bold hover:bg-gray-800 py-2 block whitespace-no-wrap" href="#">Produtos antigos</Link></li>
-                    </ul>
-                </div>
+                <Link
+                  href="/produtos"
+                  className="hover:font-bold px-5 py-2 rounded-md text-md"
+                >
+                  Produtos
+                </Link>
+                
               </div>
             </div>
 

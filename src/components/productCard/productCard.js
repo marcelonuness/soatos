@@ -13,7 +13,9 @@ export default function ProductCard({ title, description, imageUrl }) {
                 <p className="text-gray-700">{description}</p>
             </div>
             <div className="px-4 py-2">
-                <ProductButton title="Solicite um Orçamento" colorText="text-white" colorBg="bg-[#cbb26a]" />
+            <a href={`https://wa.me/5511999120408?text=Ol%C3%A1,%20vim%20do%20site%20Soatos%20e%20estou%20interessado%20no%20produto%20${title},%20voc%C3%AA%20poderia%20me%20dar%20mais%20informa%C3%A7%C3%B5es%3F`} target="_blank">
+                <ProductButton title="Solicitar um Orçamento" colorText="text-white" colorBg="bg-[#cbb26a]" />
+            </a>
             </div>            
         </div>
     )
