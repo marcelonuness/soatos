@@ -11,7 +11,7 @@ export default function SideBar( {handleFilter} ) {
       };
 
     return (
-        <aside className="px-3 py-5 w-64 shadow-2xl fixed">
+        <aside className="px-3 py-5 w-64 shadow-2xl ">
             <h2 className="mb-3 font-bold">Categorias</h2>
             <ul>
                 <li className={`p-1 my-1 hover:bg-slate-200 ${selectedCategory === "Todos" ? "bg-slate-200" : ""}`} onClick={() => handleCategoryClick("Todos")}>Todos</li>

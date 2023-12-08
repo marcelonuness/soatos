@@ -20,12 +20,11 @@ export default function Produtos() {
                     <div className="">
                         <SideBar handleFilter={handleFilter}></SideBar>
                     </div>
-                    <div className='p-4 ml-[250px]'>
+                    <div className='p-4'>
                         <CardList cards={cardsData} selectedCategory={selectedCategory}></CardList>
                     </div>
                 </div>
                 <Footer></Footer>
-            </div>
-            
+            </div>            
     )
 }

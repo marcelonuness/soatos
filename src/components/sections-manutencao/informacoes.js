@@ -20,7 +20,7 @@ export default function InformacoesContato() {
                                     {"Rua Tungue, 164 - apto 12 Jardim Cidade Pirituba"}
                                 </li>
                                 <li className="mb-2">
-                                    {"marcos@soatos.com"}
+                                    {"marcos@soatos.com.br"}
                                 </li>
                                 <li className="mb-2">
                                     {"www.soatos.com.br"}
