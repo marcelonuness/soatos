@@ -7,15 +7,15 @@ export default function SectionClientes() {
             <div className="flex items-center w-full justify-evenly my-16">
             <div className="">
                 <Image width={200}
-                height={200} alt="adidas logo" className="" src="/pngwing.com (1).png"></Image>
+                height={200} alt="cocacola logo" className="" src="/coca-cola-seeklogo.png"></Image>
             </div>
             <div className="">
                 <Image width={200}
-                height={200} alt="nike logo" className="" src="/nike-logo2.png"></Image>
+                height={200} alt="electrolux logo" className="" src="/electrolux-seeklogo.png"></Image>
             </div>
             <div className="">
                 <Image width={200}
-                height={200} alt="puma logo" className="" src="/pngwing.com (2).png"></Image>
+                height={200} alt="avon logo" className="" src="/avon-seeklogo_1.png"></Image>
             </div>    
             </div>
         </div>
