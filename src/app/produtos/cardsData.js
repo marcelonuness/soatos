@@ -57,7 +57,7 @@ export const cardsData = [
     {
         title: "4004.06R CONTROLADOR PROGRAMAVEL MPC4004 XA RAM BATERIA 8E/S(PNP) 24VCC",
         description: "",
-        imageUrl: "/photo.png",
+        imageUrl: "/photo-y.png",
         category: "Clps"
     },
     {
@@ -87,7 +87,7 @@ export const cardsData = [
     {
         title: "4004.02 CONTROLADOR PROGRAMAVEL MPC4004 NVRAM 8 E/S (PNP) 24VCC",
         description: "",
-        imageUrl: "/photo.png",
+        imageUrl: "/photo-x.png",
         category: "Clps"
     },
     {
