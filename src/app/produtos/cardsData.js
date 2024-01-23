@@ -186,4 +186,106 @@ export const cardsData = [
         imageUrl: "/photo29.png",
         category: "Clps"
     },
+    {
+        title: "6006.41 MODULO EXPANSAO DIGITAL P/MPC6006 8 SAIDAS (NPN)",
+        description: "",
+        imageUrl: "/photo30.png",
+        category: "Clps"
+    },
+    {
+        title: "6006.34 MODULO EXPANSAO DIGITAL P/MPC6006 16 ENTRADAS (PNP)",
+        description: "",
+        imageUrl: "/photo31.png",
+        category: "Clps"
+    },
+    {
+        title: "6006.56 MODULO EXPANSAO DIGITAL P/MPC6006 32 ENTRADAS (PNP)",
+        description: "",
+        imageUrl: "/photo32.png",
+        category: "Clps"
+    },
+    {
+        title: "6006.78C MODULO CONVERSOR CLIENT/SERVER P/ MPC6006",
+        description: "",
+        imageUrl: "/photo33.png",
+        category: "Clps"
+    },
+    {
+        title: "6006.54 MODULO EXPANSAO DIGITAL P/MPC6006 16 ENTRADAS 16 SAIDAS (PNP)",
+        description: "",
+        imageUrl: "/photo34.png",
+        category: "Clps"
+    },
+    {
+        title: "6006.77 MODULO EXPANSAO P/MPC6006 2 CANAIS PT100 E 1 SAIDA ANALOGICA",
+        description: "",
+        imageUrl: "/photo35.png",
+        category: "Clps"
+    },
+    {
+        title: "6006.62 MODULO EXPANSAO ANALOGICA P/MPC6006 8 ENTRADAS",
+        description: "",
+        imageUrl: "/photo36.png",
+        category: "Clps"
+    },
+    {
+        title: "6006.52 MODULO EXPANSAO DIGITAL P/MPC6006 8 ENTRADAS 8 SAIDAS (PNP)",
+        description: "",
+        imageUrl: "/photo37.png",
+        category: "Clps"
+    },
+    {
+        title: "6006.05L CONTROLADOR PROGRAMAVEL MPC6006 BF 8E/S(NPN) C/FONTE INTEGRADA",
+        description: "",
+        imageUrl: "/photo38.png",
+        category: "Clps"
+    },
+    {
+        title: "6006.54 MODULO EXPANSAO DIGITAL P/MPC6006 16 ENTRADAS 16 SAIDAS (PNP)",
+        description: "",
+        imageUrl: "/photo39.png",
+        category: "Clps"
+    },
+    {
+        title: "6006.06 CONTROLADOR PROGRAMAVEL MPC6006 BF 8E/S(PNP)",
+        description: "",
+        imageUrl: "/photo40.png",
+        category: "Clps"
+    },
+    {
+        title: "6006.05 CONTROLADOR PROGRAMAVEL MPC6006 BF 8E/S(NPN)",
+        description: "",
+        imageUrl: "/photo41.png",
+        category: "Clps"
+    },
+    {
+        title: "6006.06L CONTROLADOR PROGRAMAVEL MPC6006 BF 8E/S(PNP) C/FONTE INTEGRADA",
+        description: "",
+        imageUrl: "/photo42.png",
+        category: "Clps"
+    },
+    {
+        title: "6006.40 MODULO FONTE P/MPC6006 ENTRADA 90-260 VCA",
+        description: "",
+        imageUrl: "/photo43.png",
+        category: "Clps"
+    },
+    {
+        title: "6006.66 MODULO EXPANSAO TEMPERATURA P/MPC6006 8 CANAIS TERMOPAR",
+        description: "",
+        imageUrl: "/photo44.png",
+        category: "Clps"
+    },
+    {
+        title: "6006P92 INTERFACE HOMEM MÁQUINA PARALELA P/MPC6006 4X20",
+        description: "",
+        imageUrl: "/photo45.png",
+        category: "Clps"
+    },
+    {
+        title: "Expert DX 2450.60 CONTROLADOR PROGRAMAVEL C/ IHM 20E/12S \"N\" RTC",
+        description: "",
+        imageUrl: "/photo46.png",
+        category: "Clps"
+    },    
 ];
