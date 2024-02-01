@@ -280,12 +280,48 @@ export const cardsData = [
         title: "6006P92 INTERFACE HOMEM MÁQUINA PARALELA P/MPC6006 4X20",
         description: "",
         imageUrl: "/photo45.png",
-        category: "Clps"
+        category: "Ihms"
     },
     {
         title: "Expert DX 2450.60 CONTROLADOR PROGRAMAVEL C/ IHM 20E/12S \"N\" RTC",
         description: "",
         imageUrl: "/photo46.png",
-        category: "Clps"
+        category: "Ihms"
+    },    
+    {
+        title: "2850.30 CONTROLADOR PROGRAMAVEL C/ IHM BF 14E/10S P 2E/2S A",
+        description: "",
+        imageUrl: "/photo47.png",
+        category: "Ihms"
+    },    
+    {
+        title: "2450.10 CONTROLADOR PROGRAMAVEL C/ IHM 14E/10S \"P\" E RTC",
+        description: "",
+        imageUrl: "/photo48.png",
+        category: "Ihms"
+    },    
+    {
+        title: "2450.20 CONTROLADOR PROGRAMAVEL C/ IHM 14E/10S \"N\" E RTC",
+        description: "",
+        imageUrl: "/photo48-2.png",
+        category: "Ihms"
+    },    
+    {
+        title: "2700.03 INTERFACE HOMEM MAQUINA COLORIDA 6.5\" TFT TOUCH SCREEN",
+        description: "",
+        imageUrl: "/photo49.png",
+        category: "Ihms"
+    },    
+    {
+        title: "1752P32 CONTROLADOR PROGRAMAVEL C/ IHM 8 E N , 8S TRIAC",
+        description: "",
+        imageUrl: "/photo50.png",
+        category: "Ihms"
+    },    
+    {
+        title: "1752B61 CONTROLADOR PROGRAMAVEL C/ IHM 20E/12S N NVRAM 90-240V",
+        description: "",
+        imageUrl: "/photo51.png",
+        category: "Ihms"
     },    
 ];
