@@ -34,7 +34,7 @@ export const cardsData = [
         title: "2400.00 CARREGADOR BATERIA TERM REMOTO",
         description: "",
         imageUrl: "/photo6.png",
-        category: "Clps"
+        category: "Fontes"
     },
     {
         title: "4004.06BF CONTROLADOR PROGRAMAVEL MPC4004 BF RAM BATERIA 8E/S(PNP) 24VCC",
@@ -70,7 +70,7 @@ export const cardsData = [
         title: "4004.45 MODULO DE ENERGIA",
         description: "",
         imageUrl: "/photo11.png",
-        category: "Clps"
+        category: "Fontes"
     },
     {
         title: "4004.53H MODULO EXPANSAO DIGITAL P/MPC4004 16E (NPN/PNP) 16S NPN ",
@@ -268,7 +268,7 @@ export const cardsData = [
         title: "6006.40 MODULO FONTE P/MPC6006 ENTRADA 90-260 VCA",
         description: "",
         imageUrl: "/photo43.png",
-        category: "Clps"
+        category: "Fontes"
     },
     {
         title: "6006.66 MODULO EXPANSAO TEMPERATURA P/MPC6006 8 CANAIS TERMOPAR",
@@ -323,5 +323,23 @@ export const cardsData = [
         description: "",
         imageUrl: "/photo51.png",
         category: "Ihms"
+    },    
+    {
+        title: "Ihm\'s",
+        description: "Se não encontrou seu produto, consultar código via whatsapp",
+        imageUrl: "",
+        category: "Ihms"
+    },    
+    {
+        title: "Brio\'s",
+        description: "Se não encontrou seu produto, consultar código via whatsapp",
+        imageUrl: "",
+        category: "Brios"
+    },    
+    {
+        title: "Cabos",
+        description: "Se não encontrou seu produto, consultar código via whatsapp",
+        imageUrl: "",
+        category: "Cabos"
     },    
 ];
